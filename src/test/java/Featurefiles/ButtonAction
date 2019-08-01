@@ -1,0 +1,19 @@
+Feature: Button action validation
+
+  Scenario: 001 A text box should appear after clicking the red email button
+    Given the "ReferenceAndroid" application is installed on the device
+    When I click the "email" button
+    Then a text box is visible
+
+  Scenario: 002 The text box should contain a certain sentence
+    Given the "ReferenceAndroid" application is installed on the device
+    When I click the "email" button
+    And a text box is visible
+    Then I see this text box contains the following text: "Replace with your own action"
+
+  Scenario: 003 The text box should contain a certain sentence
+    Given the "ReferenceAndroid" application is installed on the device
+    When I change the screen orientation to "landscape"
+    And I click the "email" button
+    And a text box is visible
+    Then I see this text box contains the following text: "Replace with your own action"

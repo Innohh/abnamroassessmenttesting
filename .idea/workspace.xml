@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c839334a-3728-484f-8ef8-dbe65eb6d654" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../Maven/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OlqoknCZJr7NZHXHA7FPZ3TJmg" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Stepdefs" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Scenario: 002 A red email button should be visible on the main page when the screen orientation is in landscape">
+    <configuration name="Scenario: 001 A text box should appear after clicking the red email button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Featurefiles/ButtonAction" />
+      <option name="GLUE" value="Driver Stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="abnamroassessmenttesting" />
+      <option name="NAME_FILTER" value="^001 A text box should appear after clicking the red email button$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^001 A text box should appear after clicking the red email button$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 001 A text box should appear after clicking the red email button" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 002 A red email button should be visible on the main page when the screen orientation is in landscape" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Featurefiles/ButtonPresence" />
+      <option name="GLUE" value="Driver Stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="abnamroassessmenttesting" />
+      <option name="NAME_FILTER" value="^002 A red email button should be visible on the main page when the screen orientation is in landscape$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^002 A red email button should be visible on the main page when the screen orientation is in landscape$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 002 A red email button should be visible on the main page when the screen orientation is in landscape" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 002 The text box should contain a certain sentence" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Featurefiles/ButtonAction" />
+      <option name="GLUE" value="Driver Stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="abnamroassessmenttesting" />
+      <option name="NAME_FILTER" value="^002 The text box should contain a certain sentence$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^002 The text box should contain a certain sentence$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 002 The text box should contain a certain sentence" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 003 The text box should contain a certain sentence" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Featurefiles/ButtonAction" />
+      <option name="GLUE" value="Driver Stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="abnamroassessmenttesting" />
+      <option name="NAME_FILTER" value="^003 The text box should contain a certain sentence$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^003 The text box should contain a certain sentence$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 003 The text box should contain a certain sentence" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 009 The settings button should stay visible after clicking the extra options button and then rotate the screen to landscape mode" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Featurefiles/ButtonPresence.feature" />
+      <option name="GLUE" value="Driver Stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="abnamroassessmenttesting" />
+      <option name="NAME_FILTER" value="^009 The settings button should stay visible after clicking the extra options button and then rotate the screen to landscape mode$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^009 The settings button should stay visible after clicking the extra options button and then rotate the screen to landscape mode$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 009 The settings button should stay visible after clicking the extra options button and then rotate the screen to landscape mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: 002 A red email button should be visible on the main page when the screen orientation is in landscape" />
+        <item itemvalue="Cucumber java.Scenario: 003 The text box should contain a certain sentence" />
+        <item itemvalue="Cucumber java.Scenario: 002 The text box should contain a certain sentence" />
+        <item itemvalue="Cucumber java.Scenario: 001 A text box should appear after clicking the red email button" />
+        <item itemvalue="Cucumber java.Scenario: 009 The settings button should stay visible after clicking the extra options button and then rotate the screen to landscape mode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c839334a-3728-484f-8ef8-dbe65eb6d654" name="Default Changelist" comment="" />
+      <created>1564562707308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564562707308</updated>
+    </task>
+    <servers />
+  </component>
+</project>

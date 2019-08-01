@@ -1,0 +1,54 @@
+Feature: Button presence validation
+
+  Scenario: 001 A red email button should be visible on the main page
+    Given the "ReferenceAndroid" application is installed on the device
+    When the current activity of the app is "Main Activity"
+    Then the "email" button is visible
+
+  Scenario: 002 A red email button should be visible on the main page when the screen orientation is in landscape
+    Given the "ReferenceAndroid" application is installed on the device
+    When I change the screen orientation to "landscape"
+    And the current activity of the app is "Main Activity"
+    Then the "email" button is visible
+
+  Scenario: 003 A three dotted extra options button should be visible on the main page
+    Given the "ReferenceAndroid" application is installed on the device
+    When the current activity of the app is "Main Activity"
+    Then the "extra options" button is visible
+
+  Scenario: 004 A three dotted extra options button should be visible on the main page when the screen orientation is in landscape
+    Given the "ReferenceAndroid" application is installed on the device
+    When I change the screen orientation to "landscape"
+    And the current activity of the app is "Main Activity"
+    Then the "extra options" button is visible
+
+  Scenario: 005 The settings button should NOT be visible on the main page
+    Given the "ReferenceAndroid" application is installed on the device
+    When the current activity of the app is "Main Activity"
+    Then the "settings" button is NOT visible
+
+  Scenario: 006 The settings button should NOT be visible on the main page when the screen orientation is in landscape
+    Given the "ReferenceAndroid" application is installed on the device
+    When I change the screen orientation to "landscape"
+    And the current activity of the app is "Main Activity"
+    Then the "settings" button is NOT visible
+
+  Scenario: 007 The settings button should be visible after clicking the extra options button
+    Given the "ReferenceAndroid" application is installed on the device
+    When the current activity of the app is "Main Activity"
+    And I click the "extra options" button
+    Then the "settings" button is visible
+
+  Scenario: 008 The settings button should be visible after clicking the extra options button when the screen orientation is in landscape
+    Given the "ReferenceAndroid" application is installed on the device
+    When I change the screen orientation to "landscape"
+    And the current activity of the app is "Main Activity"
+    And I click the "extra options" button
+    Then the "settings" button is NOT visible
+
+  Scenario: 009 The settings button should stay visible after clicking the extra options button and then rotate the screen to landscape mode
+    Given the "ReferenceAndroid" application is installed on the device
+    When the current activity of the app is "Main Activity"
+    And I click the "extra options" button
+    And I change the screen orientation to "landscape"
+    Then the "settings" button is visible

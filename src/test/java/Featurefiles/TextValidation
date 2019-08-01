@@ -1,0 +1,23 @@
+Feature: Validation of visible text
+
+  Scenario: 001 Hello world is visible on start up in portrait mode
+    Given the "ReferenceAndroid" application is installed on the device
+    When the current activity of the app is "Main Activity"
+    Then the text "Hello World" should be visible
+
+  Scenario: 002 Hello world is visible on start up in landscape mode
+    Given the "ReferenceAndroid" application is installed on the device
+    When I change the screen orientation to "landscape"
+    And the current activity of the app is "Main Activity"
+    Then the text "Hello World" should be visible
+
+  Scenario: 003 The name of the app is visible on start up in portrait mode
+    Given the "ReferenceAndroid" application is installed on the device
+    When the current activity of the app is "Main Activity"
+    Then the text "ReferenceAndroid" should be visible
+
+  Scenario: 004 The name of the app is visible on start up in landscape mode
+    Given the "ReferenceAndroid" application is installed on the device
+    When I change the screen orientation to "landscape"
+    And the current activity of the app is "Main Activity"
+    Then the text "ReferenceAndroid" should be visible
