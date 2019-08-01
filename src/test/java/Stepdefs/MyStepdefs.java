@@ -16,6 +16,12 @@ import org.testng.Assert;
 
 import java.net.MalformedURLException;
 
+/**
+ * @author MBRAAM
+ *
+ *  In this class all the steps are defined.
+ */
+
 public class MyStepdefs {
 
     AndroidDriver driver = SetupDriver.setUp();

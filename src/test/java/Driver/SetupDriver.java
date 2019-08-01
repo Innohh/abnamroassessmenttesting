@@ -1,12 +1,18 @@
 package Driver;
 
 import cucumber.api.java.After;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
+
+/**
+ * @author MBRAAM
+ *
+ *  This class is created to create the driver.
+ */
 
 public class SetupDriver {
 
@@ -20,7 +26,7 @@ public class SetupDriver {
         capabilities.setCapability("deviceName", "emulator-5554");
 
         // Set android platformName desired capability. It's Android in our case here.
-        capabilities.setCapability("platformName", "Featurefiles");
+        capabilities.setCapability("platformName", "Android");
 
         // Set android appPackage desired capability. This can be found
         // by using the following line in command prompt:
